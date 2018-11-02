@@ -1,6 +1,7 @@
 
 import test from 'ava';
-import { isProd, envs, env } from './../scripts/envs.js';
+const { isProd, envs, env } = require('./../scripts/envs.ts');
+// import { isProd, envs, env } from './../scripts/envs';
 
 test(`current env is 'test'`, t => {
   t.is(env, 'test');

@@ -1,8 +1,7 @@
 
 import test from 'ava';
 import { JSDOM, dom, document, window } from './helpers/dom.js';
-import pkg from './../package.json';
-import {kitchenSink} from './../src/libs/kitchen.js';
+import { kitchenSink } from './../src/libs/kitchen';
 
 const ks = new JSDOM(`<!DOCTYPE html>${kitchenSink}</div>`);
 
