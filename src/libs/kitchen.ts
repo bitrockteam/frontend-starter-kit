@@ -1,5 +1,5 @@
 
-export const kitchenSink = /*html*/`
+export const kitchenSink: string = /*html*/`
 <div id="wrapper">
   <h1>This is the primary heading and there should only be one of these per page</h1>
   <p>A small paragraph to <em>emphasis</em> and show <strong>important</strong> bits.</p>

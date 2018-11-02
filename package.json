@@ -18,6 +18,7 @@
     "test": "npm run test:unit"
   },
   "devDependencies": {
+    "@types/node": "10.12.2",
     "ava": "0.25.0",
     "css-loader": "1.0.0",
     "cypress": "3.0.2",
@@ -29,6 +30,10 @@
     "node-sass": "4.9.2",
     "sass-loader": "7.0.3",
     "style-loader": "0.21.0",
+    "ts-loader": "5.3.0",
+    "ts-node": "7.0.1",
+    "typescript": "3.1.6",
+    "typescript-require": "0.2.10",
     "webpack": "4.16.1",
     "webpack-cli": "3.0.8",
     "webpack-dev-server": "3.1.9",

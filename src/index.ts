@@ -5,7 +5,7 @@ import './libs/app';
 console.log('Project started...');
 
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
+  window.addEventListener('load', (): void => {
     navigator.serviceWorker.register('./sw.js').then(registration => {
       console.log('SW registered: ', registration);
     }).catch(registrationError => {
@@ -14,4 +14,5 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-document.querySelector('.js-warning').style.display = 'none';
+const warning = <HTMLElement>document.querySelector('.js-warning');
+warning.style.display = 'none';

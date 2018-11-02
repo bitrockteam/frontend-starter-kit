@@ -1,17 +1,17 @@
 
 import pkg from './../../package.json';
-import styles from './../styles/app.scss';
 import { kitchenSink } from './kitchen';
+import './../styles/app.scss';
 
-const root = document.querySelector('#root');
+const root: Element = document.querySelector('#root');
 
-const hello = /*html*/`
-  <main class="${styles.container}">
+const hello: string = /*html*/`
+  <main class="container">
     <h1>Hello <span>${pkg.name}</span>!</h1>
-    <p><small>another awesome <span class=${styles.strong}>Bitrock</span> application!</small></p>
+    <p><small>another awesome <span class="strong">Bitrock</span> application!</small></p>
     <hr />
     <img 
-      class="${styles.cover}" 
+      class="cover"
       src="https://placeimg.com/1000/500/nature" 
       alt="example cover image"
     >
