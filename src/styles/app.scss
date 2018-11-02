@@ -1,5 +1,5 @@
 
-@import './vars.scss';
+@import '~@amber-ds/visual/src/index.scss';
 
 .container {
   margin: 40px auto;
@@ -11,23 +11,5 @@
 
   .cover {
     width: 100%;
-  }
-
-  h1 {
-    span {
-      color: $primary;
-    }
-  }
-
-  span.strong { 
-    color: darken($primary, 15%);
-    font-weight: 700;
-    font-size: 1.1em;
-  }
-
-  hr{
-    border: 0;
-    border-bottom: 1px solid #bbb;
-    margin: 20px 0;
   }
 }

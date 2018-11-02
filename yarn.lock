@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@amber-ds/visual@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@amber-ds/visual/-/visual-0.5.2.tgz#af5fceac4e3f8484f70df622a3512f062513406d"
+  integrity sha512-vNtom8cVVFu1LfngorNuGmnQ+q5jPpWLr9GmoK/UzPs8YPTdkok8ftvHPDYaYDI7f3Pbaq73U+ZztMVTZmHI+g==
+  dependencies:
+    normalize.css bitrockteam/normalize.css
+
 "@ava/babel-plugin-throws-helper@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@ava/babel-plugin-throws-helper/-/babel-plugin-throws-helper-2.0.0.tgz#2fc1fe3c211a71071a4eca7b8f7af5842cd1ae7c"
@@ -5627,10 +5634,9 @@ normalize-url@^1.0.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-normalize.css@8.0.0:
+normalize.css@bitrockteam/normalize.css, "normalize.css@github:bitrockteam/normalize.css":
   version "8.0.0"
-  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.0.tgz#14ac5e461612538a4ce9be90a7da23f86e718493"
-  integrity sha512-iXcbM3NWr0XkNyfiSBsoPezi+0V92P9nj84yVV1/UZxRUrGczgX/X91KMAGM0omWLY2+2Q1gKD/XRn4gQRDB2A==
+  resolved "https://codeload.github.com/bitrockteam/normalize.css/tar.gz/efcb650e2cfc0f7e80e01b70ef7b2373f2268dfc"
 
 npm-bundled@^1.0.1:
   version "1.0.3"
@@ -7912,11 +7918,6 @@ type-is@~1.6.15, type-is@~1.6.16:
   dependencies:
     media-typer "0.3.0"
     mime-types "~2.1.18"
-
-typebase.css@0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/typebase.css/-/typebase.css-0.5.0.tgz#9f047bf8df09d1ea3931c03fe42034b897a98f90"
-  integrity sha1-nwR7+N8J0eo5McA/5CA0uJepj5A=
 
 typedarray@^0.0.6:
   version "0.0.6"
