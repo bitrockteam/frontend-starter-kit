@@ -32,6 +32,7 @@
     "style-loader": "0.23.1",
     "ts-loader": "5.3.0",
     "ts-node": "7.0.1",
+    "tslint-config-prettier": "1.17.0",
     "typescript": "3.1.6",
     "typescript-require": "0.2.10",
     "webpack": "4.23.1",
