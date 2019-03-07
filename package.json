@@ -33,6 +33,7 @@
     "ts-loader": "5.3.3",
     "ts-node": "8.0.3",
     "typescript": "3.3.3333",
+    "tslint-config-prettier": "1.17.0",
     "typescript-require": "0.2.10",
     "webpack": "4.29.6",
     "webpack-cli": "3.2.3",
